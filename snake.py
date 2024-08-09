@@ -12,6 +12,8 @@ offsets = {
     "left": (-20, 0),
     "right": (20, 0)
 }
+
+
 def reset():
     global snake, snake_direction, food_pos, pen
     snake = [[0, 0], [0, 20], [0, 40], [0, 50], [0, 60]]
