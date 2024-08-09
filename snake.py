@@ -1,7 +1,7 @@
 import turtle
 import random
 
-#  @python.coder_
+
 WIDTH = 500
 HEIGHT = 500
 FOOD_SIZE = 10
@@ -121,13 +121,13 @@ screen.tracer(0)
 # Pen
 pen = turtle.Turtle("square")
 pen.penup()
-pen.pencolor("yellow")
+pen.pencolor("red")
 
 # Food
 food = turtle.Turtle()
 food.shape("circle")
-food.color("red")
-food.shapesize(FOOD_SIZE / 20)  # Default size of turtle "square" shape is 20.
+food.color("green")
+food.shapesize(FOOD_SIZE / 30)  # Default size of turtle "square" shape is 30.
 food.penup()
 
 # Event handlers
