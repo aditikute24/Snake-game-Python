@@ -129,7 +129,7 @@ pen.pencolor("red")
 food = turtle.Turtle()
 food.shape("circle")
 food.color("green")
-food.shapesize(FOOD_SIZE / 30)  # Default size of turtle "square" shape is 30.
+food.shapesize(FOOD_SIZE / 10)  # Default size of turtle "square" shape is 10.
 food.penup()
 
 # Event handlers
